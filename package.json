@@ -20,5 +20,8 @@
   "homepage": "https://github.com/ibanmondal/PROMPTWARS#readme",
   "devDependencies": {
     "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "firebase": "^12.12.0"
   }
 }
