@@ -17,14 +17,18 @@ CrowdSync AI is an intelligent crowd optimization system designed to dynamically
 - **HTML5**: Semi-semantic structure for the dashboard layout.
 - **CSS3 / Vanilla CSS**: Modern, responsive, system-level design with custom variables, glassmorphism effects, flexbox/grid layouts, and advanced animations.
 - **Vanilla JavaScript**: Core logic for the simulation, DOM manipulation, pathfinding algorithms (A* or Dijkstra simulation), state management, and real-time updates.
+- **Jest**: Comprehensive unit testing for core simulation logic and queue mechanics.
+- **Google Cloud Services**: Integrations for Google Analytics and Firebase performance tracking implementations.
 
 ## Getting Started
 
-No complex build tools or dependencies are required as it is entirely built with client-side web technologies.
+While the dashboard runs natively in the browser without bundlers, setting up the environment enables local testing suites.
 
 1. Clone or download the repository to your local machine.
-2. Locate the `index.html` file in the project's root directory.
-3. Open `index.html` in any modern web browser (Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge).
+2. Ensure you have [Node.js](https://nodejs.org/) installed.
+3. Open your terminal in the project directory and run `npm install` to install testing dependencies.
+4. Run `npm test` to verify the core simulation logic.
+5. Open `index.html` in any modern web browser (Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge) to launch the tool.
 
 ## Usage
 
